@@ -1,0 +1,332 @@
+@import url("https://font.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  scroll-behavior: smooth;
+  background-color: #a1c3ff;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+ul.nav {
+  list-style-type: none;
+  /* list-style: none; */
+}
+ul.nav > li {
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar {
+  background-color: #3474e6;
+  color: #fff;
+  height: 60px;
+}
+.navbar > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #6cd2fe;
+}
+.container > ul.nav {
+  display: flex;
+  gap: 30px;
+}
+
+header.header {
+  background-color: #0151cc;
+  color: #fff;
+  min-height: auto;
+}
+.header h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: 0.3s ease-in-out;
+}
+.header h1:hover {
+  transform: scale(1.02);
+  color: antiquewhite;
+}
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .container > .first-part {
+  flex-basis: 55%;
+}
+.first-part p {
+  padding-right: 15px;
+  text-align: justify;
+}
+.header .container > section.box-borders {
+  flex-basis: 45%;
+  margin: 25px;
+  max-width: 400px;
+  max-height: 400px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.box-border {
+  flex-basis: 31%;
+  height: 58px;
+  border: 8px solid;
+
+  box-sizing: border-box;
+}
+.box-border:nth-of-type(1) {
+  border-top-color: #5ecbf9;
+  border-right-color: #7ab3cb;
+  border-bottom-color: #9adaf5;
+  border-left-color: #3d7a95;
+}
+.box-border:nth-of-type(2) {
+  border-color: #91acf8;
+  border-top-color: #5ecbf9;
+  border-right-color: #7ab3cb;
+  border-bottom-color: #9adaf5;
+  border-left-color: #3d7a95;
+}
+.box-border:nth-of-type(3) {
+  border-color: #8791ec;
+  border-top-color: #5ecbf9;
+  border-right-color: #7ab3cb;
+  border-bottom-color: #9adaf5;
+  border-left-color: #3d7a95;
+}
+
+.box-border:nth-of-type(4) {
+  border-top-color: #cff5d1;
+  border-right-color: #4ca952;
+  border-bottom-color: #6aa66f;
+  border-left-color: #128f1a;
+}
+.box-border:nth-of-type(5) {
+  border-top-color: #8dad17;
+  border-right-color: #667d15;
+  border-bottom-color: #536906;
+  border-left-color: #3c4c03;
+}
+.box-border:nth-of-type(6) {
+  border-top-color: #d7fd4d;
+  border-right-color: #b6d34f;
+  border-bottom-color: #7a980a;
+  border-left-color: #303a0b;
+}
+
+.box-border:nth-of-type(7) {
+  border-top-color: #f5db15;
+  border-right-color: #8f832e;
+  border-bottom-color: #706407;
+  border-left-color: #f7e246;
+}
+
+.box-border:nth-of-type(8) {
+  border-top-color: #b1a306;
+  border-right-color: #a39929;
+  border-bottom-color: #8c853c;
+  border-left-color: #a0994e;
+}
+
+.box-border:nth-of-type(9) {
+  border-top-color: #b3d82c;
+  border-right-color: #7a980d;
+  border-bottom-color: #6f812b;
+  border-left-color: #afda11;
+}
+
+.boxes .container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+}
+.boxes .container > .box {
+  flex: 1;
+  background-color: #0a51cc;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  transition: 0.45s ease-in-out;
+}
+
+.boxes .container > .box:hover {
+  transform: scale(1.05);
+  border-color: #eff6f7;
+  color: #f9d03c;
+}
+.box > h2 > i {
+  margin-right: auto;
+}
+.box p {
+  text-align: justify;
+  padding-right: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #225cc0;
+  color: #eff6f7;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
+
+/**Responsive **/
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .navbar .logo {
+    font-size: large;
+    font-weight: bold;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .header .container > .first-part {
+    flex-basis: 100%;
+    margin: 30px auto;
+    box-sizing: border-box;
+  }
+  .first-part p {
+    padding: auto;
+    text-align: justify;
+  }
+  section.box-borders {
+    margin: auto;
+    flex-basis: 90%;
+    max-width: 90%;
+    gap: auto;
+    box-sizing: border-box;
+  }
+  .box-border {
+    flex-basis: 27%;
+    box-sizing: border-box;
+  }
+
+  .boxes .container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px auto;
+  }
+  .boxes .container > .box {
+    flex: 1;
+    background-color: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar .logo {
+    font-size: large;
+    font-weight: bold;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .header .container > .first-part {
+    flex-basis: 100%;
+    margin: 30px auto;
+    box-sizing: border-box;
+  }
+  .first-part p {
+    padding: auto;
+    text-align: justify;
+  }
+  section.box-borders {
+    margin: auto;
+    flex-basis: 90%;
+    max-width: 90%;
+    gap: auto;
+    box-sizing: border-box;
+  }
+  .box-border {
+    flex-basis: 27%;
+    box-sizing: border-box;
+  }
+
+  .boxes .container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px auto;
+  }
+  .boxes .container > .box {
+    flex: 1;
+    background-color: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    min-height: 450px;
+  }
+}
