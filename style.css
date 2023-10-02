@@ -254,7 +254,7 @@ footer {
     box-sizing: border-box;
   }
   .box-border {
-    flex-basis: 27%;
+    flex-basis: 30%;
     box-sizing: border-box;
   }
 
@@ -302,13 +302,16 @@ footer {
     text-align: justify;
   }
   section.box-borders {
-    margin: auto;
+    margin: 12px auto;
+    flex-direction: column;
     flex-basis: 100%;
     gap: auto;
     box-sizing: border-box;
   }
   .box-border {
-    flex-basis: 27%;
+    margin: 10px;
+    flex-basis: 100%;
+    gap: 16px;
     box-sizing: border-box;
   }
 
@@ -326,6 +329,6 @@ footer {
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
-    min-height: 210px;
+    min-height: 220px;
   }
 }
