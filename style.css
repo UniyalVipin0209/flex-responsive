@@ -275,7 +275,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) and (orientation: portrait) {
+@media (min-width: 768px) and (orientation: landscape) {
   .header .container {
     flex-direction: column;
     text-align: center;
@@ -303,8 +303,7 @@ footer {
   }
   section.box-borders {
     margin: auto;
-    flex-basis: 90%;
-    max-width: 90%;
+    flex-basis: 100%;
     gap: auto;
     box-sizing: border-box;
   }
@@ -327,6 +326,6 @@ footer {
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
-    min-height: 450px;
+    min-height: 210px;
   }
 }
